@@ -1,0 +1,21 @@
+.hero__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.hero__content {
+  max-width: 750px;
+}
+
+.hero__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero__subtext {
+  font-size: 20px;
+  margin-bottom: 15px;
+}

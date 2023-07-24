@@ -204,7 +204,7 @@
     height: 100vh;
     z-index: 100;
     box-shadow: 5px 0 15px -5px rgba(0, 0, 0, 0.8);
-    background-color: #fff;
+    background: #F3F7FF;
     transform: translateX(-150vw);
     overflow-x: hidden;
     overflow-y: auto;

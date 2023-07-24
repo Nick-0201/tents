@@ -60,3 +60,15 @@ menu.addEventListener('click', (e) => {
     unlockScroll();
   }
 });
+// ----------------- hamburger menu end -----------------
+
+// ----------------- slider ----------------- 
+
+$('.single-item').slick({
+  infinite: true,
+  dots: true,
+  slidesToShow: 3,
+  slidesToScroll: 1
+});
+
+// ----------------- slider end ----------------- 
