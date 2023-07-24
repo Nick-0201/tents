@@ -7,48 +7,129 @@
   <title>Мир тентов Кыргызстан</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css" />
+
 </head>
 
 <body>
+  <!-- header -->
   <header class="header">
-    <div class="header__container container">
-      <div class="header__nav">
-        <div class="header__logo">
-          <p class="header__logo-text">Мир тентов<br>Кыргызстан</p>
-        </div>
-        <div class="header__contact">
-          <ul class="header__list">
-            <li class="header__item">Режим работы:</li>
-            <li class="header__item">В будние дни</li>
-            <li class="header__item">с 9:00 до 18:00</li>
-          </ul>
-          <ul class="header__list">
-            <li class="header__item">г.Бишкек</li>
-            <li class="header__item">р.Мадина</li>
-            <li class="header__item">Ковровый ряд №3</li>
-          </ul>
-          <ul class="header__list">
-            <p class="header__list-text">Гульзара</p>
-            <li class="header__item">р.Мадина</li>
-            <li class="header__item">Ковровый ряд №3</li>
-          </ul>
-          <ul class="header__list">
-            <p class="header__list-text">Михрибан</p>
-            <li class="header__item">
-              <a href="https://skobelkin.ru/whatsapp/0705001140?text=Здравствуйте+у+меня+есть+вопрос≈"
-                class="header__link">0(705) 00 11 40</a>
-            </li>
-            <li class="header__item">Ковровый ряд №3</li>
-          </ul>
-          <ul class="header__list">
-            <p class="header__list-text">Бахтияр</p>
-            <li class="header__item">р.Мадина</li>
-            <li class="header__item">Ковровый ряд №3</li>
-          </ul>
-        </div>
+    <div class="header__container ">
+      <div class="header__logo">
+        <p class="header__logo-text"><span>
+            Мир</span>Тентов</p>
       </div>
+      <div class="overlay"></div>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/" class="nav__link">Главная</a></li>
+          <li class="nav__item">
+            <a href="" class="nav__link nav__link--drop">Каталог</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list dropdown-submenu">
+              <li class="dropdown-list__item mobile-back"><a href="#"
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-submenu__item">
+                <h3 class="dropdown-submenu__title">Тенты</h3>
+                <ul class="dropdown-submenu__list">
+                  <li class="dropdown-submenu__list-item"><a href="">Тенты на Авто</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Тенты для Здании</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Тенты для Спортзала</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Тенты для Сто/Мойки</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu__item">
+                <h3 class="dropdown-submenu__title">Компьютеры</h3>
+                <ul class="dropdown-submenu__list">
+                  <li class="dropdown-submenu__list-item"><a href="">MSI</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Acer</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Xiaomi</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Asus</a></li>
+                  <li class="dropdown-submenu__list-item"><a href="">Huawei</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link nav__link--drop">Информация</a>
+            <ul class="nav__list nav__list--dropdown dropdown-list">
+              <li class="dropdown-list__item mobile-back"><a href=""
+                  class="dropdown-list__link mobile-back__link">Назад</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Как выбрать товар</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Подбор по фото</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Владельцам бизнеса</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Отзывы</a></li>
+              <li class="dropdown-list__item"><a href="" class="dropdown-list__link">Оптом</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="burger" aria-label="Открыть меню">
+        <span></span>
+      </button>
     </div>
   </header>
+  <!-- header end -->
+
+  <section class="slide">
+    <div class="slide__container">
+      <div>
+        <div class="f-carousel" id="myCarousel">
+          <div class="f-carousel__slide">
+            <img class="slide__img" src="./img/gallary/9nearqa5ta6b50i3uf3sibyruxd1e8q6.jpg" alt="slider">
+          </div>
+          <div class="f-carousel__slide">
+            <img class="slide__img"
+              src="./img/gallary/tild3666-3135-4034-a362-613039393462__outdoor-3681924_1920-960x540.jpg" alt="slider">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="hero">
+    <div class="hero__container">
+      <aside class="aside">
+        <div class="aside__container">
+          <ul class="aside__list">
+            <li class="aside__item"><a href="#" class="aside__link"></a></li>
+            <li class="aside__item"><a href="#" class="aside__link"></a></li>
+          </ul>
+        </div>
+      </aside>
+      <div class="hero__content">
+        <h1 class="hero__title">Почему выбирают нас?</h1>
+        <p class="hero__subtext">Наша компания предлагает привлекательные условия для сотрудничества:</p>
+        <p class="hero__subtext">Широкий ассортимент тентов и пологов в Бишкеке по доступной цене;</p>
+        <p class="hero__subtext">Удобные способы оплаты;</p>
+        <p class="hero__subtext">Индивидуальный подход к каждому клиенту.</p>
+        <p class="hero__subtext">
+          Тенты — мы расскажем о них все! Какое самое простое укрытие от дождя, снега или солнца? Что меньше всего
+          весит, быстро и просто устанавливается? И при этом недорого стоит?
+        </p>
+        <p class="hero__subtext">Индивидуальный пошив по Вашим размерам.</p>
+        <p class="hero__subtext">г. Бишкек, рынок «Мадина», 3 ряд, 201 контейнер, tentservis.infomir.kg</p>
+        <p class="hero__subtext">Ждем Вас у нас с 09:00 до 18:00</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+  <script>
+    new Carousel(document.getElementById("myCarousel"), {
+      Autoplay: {
+        timeout: 5000
+      }
+    }, {
+      Autoplay
+    });</script>
 </body>
 
 </html>
+<!-- <li class="header__item">
+    <a href="https://api.whatsapp.com/send/?phone=996705001140" class="header__link">0(705) 00 11 40</a>
+  </li> -->
